@@ -32,8 +32,8 @@ public class R<T> implements Serializable {
     public static <T> R<T> success(String msg) { return restResult(100000, msg, null); }
     public static <T> R<T> success(String msg, T data) { return restResult(100000, msg, data); }
     public static <T> R<T> failed() { return restResult(100900, null, null); }
-    public static <T> R<T> failed(String msg) { return restResult(100000, msg, null); }
-    public static <T> R<T> failed(String msg, T data) { return restResult(100000, msg, data); }
+    public static <T> R<T> failed(String msg) { return restResult(100900, msg, null); }
+    public static <T> R<T> failed(String msg, T data) { return restResult(100900, msg, data); }
     public static <T> R<T> failed(T data) { return restResult(100900, null, data); }
     public static <T> R<T> failed(int code, String msg, T data) { return restResult(code, msg, data); }
     public static <T> R<T> failed(int code, String msg) { return restResult(code, msg, null); }
