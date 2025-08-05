@@ -1,4 +1,4 @@
-package com.seraphim.pointssystem.util;
+package com.seraphim.backend.util;
 
 import lombok.Data;
 import java.io.Serial;

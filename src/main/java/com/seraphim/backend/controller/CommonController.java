@@ -1,7 +1,7 @@
-package com.seraphim.pointssystem.controller;
+package com.seraphim.backend.controller;
 
-import com.seraphim.pointssystem.Constant;
-import com.seraphim.pointssystem.util.R;
+import com.seraphim.backend.Constant;
+import com.seraphim.backend.util.R;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,13 +1,13 @@
-package com.seraphim.pointssystem;
+package com.seraphim.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PointsSystemApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(PointsSystemApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }

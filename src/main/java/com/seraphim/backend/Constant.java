@@ -1,4 +1,4 @@
-package com.seraphim.pointssystem;
+package com.seraphim.backend;
 
 public interface Constant {
 
